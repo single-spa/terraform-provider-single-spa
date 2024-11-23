@@ -1,4 +1,4 @@
-module terraform-provider-single-spa
+module github.com/single-spa/terraform-provider-single-spa
 
 go 1.22.7
 
