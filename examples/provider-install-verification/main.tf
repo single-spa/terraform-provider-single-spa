@@ -15,9 +15,9 @@ data "single_spa_mfe" "root_config" {
   layout      = true
 }
 
-output "initial_files" {
-  value = data.single_spa_mfe.root_config.initial_files
-}
+# output "initial_files" {
+#   value = data.single_spa_mfe.root_config.initial_files
+# }
 
 # module "root-config" {
 #   source = "single-spa/terraform-single-spa-modules/github_mfe"
